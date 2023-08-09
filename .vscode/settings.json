@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "wifi_comm.h": "c",
+        "epd_console.h": "c",
+        "web_serve.h": "c",
+        "spiffs_flash.h": "c",
+        "dirent.h": "c",
+        "argtable3.h": "c",
+        "dns.h": "c",
+        "stdio.h": "c",
+        "gpio.h": "c",
+        "string.h": "c",
+        "lvgl_helpers.h": "c",
+        "disp_driver.h": "c",
+        "freertos.h": "c",
+        "touch_driver.h": "c",
+        "cst816.h": "c",
+        "lv_port_indev.h": "c"
+    },
+    "idf.adapterTargetName": "esp32c3",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.port": "/dev/ttyACM0"
+}
